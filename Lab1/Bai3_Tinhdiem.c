@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-int main() {
+int main(){
     char mssv[] = "PS52534";
     char hovaten[] = "Do Viet Quoc Khanh";
-    float diemToan = 8.0;
-    float diemLy = 8.0;
-    float diemHoa = 8.0;
-    float diemTrungBinh = (diemToan + diemLy + diemHoa) / 3;
+    float diemtoan = 8.5;
+    float diemly = 7.5;
+    float diemhoa = 9.0;
+    float diemtrungbinh = (diemtoan + diemly + diemhoa) / 3;
 
     printf("MSSV: %s\n", mssv);
-    printf("Ho va Ten: %s\n", hovaten);
-    printf("Diem Toan: %.2f\n", diemToan);
-    printf("Diem Ly: %.2f\n", diemLy);
-    printf("Diem Hoa: %.2f\n", diemHoa);
-    printf("Diem trung binh: %.2f\n", diemTrungBinh);
-
+    printf("Ho va ten: %s\n", hovaten);
+    printf("Diem toan: %.2f\n", diemtoan);
+    printf("Diem ly: %.2f\n", diemly);
+    printf("Diem hoa: %.2f\n", diemhoa);
+    printf("Diem trung binh: %.2f\n", diemtrungbinh);
     return 0;
 }
