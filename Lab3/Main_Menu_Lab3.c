@@ -107,7 +107,7 @@ do
       printf("1. Tinh hoc luc sinh vien\n");
       printf("2. Giai phuong trinh bac hai\n");
       printf("3. Tinh tien dien tieu thu\n");
-      printf("Nhap lua chon cua ban:\n");
+      printf("Nhap lua chon cua ban:");
       scanf("%d",&chon);
       switch (chon)
       {
